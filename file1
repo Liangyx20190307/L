@@ -1,0 +1,4 @@
+import tushare as ts
+dt=ts.get_stock_basics()
+dt.to_csv('D:/data.csv',encoding='utf_8_sig')
+print(dt)
