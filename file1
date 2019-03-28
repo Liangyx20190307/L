@@ -4,3 +4,6 @@ dt.to_csv('D:/data.csv',encoding='utf_8_sig')
 
 import tushare as ts
 dt=ts.get_stock_basics()
+
+while true:
+  for
